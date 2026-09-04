@@ -4,7 +4,7 @@ Watch two local LLMs talk to each other, in your browser, at a speed you can act
 
 Point it at two models running in [Ollama](https://ollama.com), give them an opening line, and watch the conversation stream in live — with token counts and tokens/sec per turn.
 
-![status](https://img.shields.io/badge/dependencies-none-brightgreen) ![python](https://img.shields.io/badge/python-3.8%2B-blue)
+![status](https://img.shields.io/badge/dependencies-none-brightgreen) ![python](https://img.shields.io/badge/python-3.8%2B-blue) ![license](https://img.shields.io/badge/license-MIT-yellow)
 
 ## Why
 
@@ -94,3 +94,7 @@ SSE event types: `seed`, `turn_start`, `token`, `turn_end`, `done`, `stopped`, `
 server.py     stdlib HTTP server, Ollama relay, conversation loop
 index.html    UI, typewriter engine, turn queue
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
